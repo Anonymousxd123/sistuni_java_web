@@ -4,14 +4,16 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>RESULTADO</title>
 </head>
 <body>
-<H1><%=request.getAttribute("opera") %></H1>
-<H1><%=request.getAttribute("num1") %></H1>
-<H1><%=request.getAttribute("num2") %></H1>
-<H1><%=request.getAttribute("rpta") %></H1>
 
-<a href="index.html">Retornar</a>
+  <h1>${opera}</h1>
+
+  <p>Número 1: ${num1}</p>
+  <p>Número 2: ${num2}</p>
+  <p>Resultado: ${rpta}</p>
+
+  <a href="index.html">Retornar</a>
 </body>
 </html>
